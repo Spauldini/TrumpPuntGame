@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#trump {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+}
+
+#wall {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    width: 50px;
+    height: 300px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#score {
+    margin-left: 10px;
+}
